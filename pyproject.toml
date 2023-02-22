@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mycolab"
+version = "0.1.0"
+description = "my colab"
+authors = ["Young King <yanckin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^9.4.0"
+layoutparser = {extras = ["layoutmodels"], version = "^0.3.4"}
+torchvision = "^0.14.1"
+reportlab = "^3.6.12"
+pypdf = "^3.4.1"
+transformers = "^4.26.1"
+sentencepiece = "^0.1.97"
+sacremoses = "^0.0.53"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
