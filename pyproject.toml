@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.8"
 Pillow = "^9.4.0"
 layoutparser = {extras = ["layoutmodels"], version = "^0.3.4"}
+detectron2 = { git = "https://github.com/facebookresearch/detectron2.git", tag="v0.5"}
 torchvision = "^0.14.1"
 reportlab = "^3.6.12"
 pypdf = "^3.4.1"
