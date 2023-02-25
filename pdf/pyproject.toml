@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "mycolab"
+name = "pdftranslate"
 version = "0.1.0"
-description = "my colab"
+description = "pdf translate"
 authors = ["Young King <yanckin@gmail.com>"]
 readme = "README.md"
 
